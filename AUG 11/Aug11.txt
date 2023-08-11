@@ -1,0 +1,52 @@
+<div id="b1" class="box">
+  <div id="semicircle1" class="semicircle"></div>
+</div>
+<div id="b2" class="box">
+  <div id="semicircle2" class="semicircle"></div>
+</div>
+<style>
+   html, body {
+    height: 400px;
+    width: 300px;
+    margin: 0;
+  }
+
+  .box {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #b1{
+  background-color: #62306D;  
+  left: 0;
+}
+
+ #b2{
+  background-color: #F7EC7D;  
+  right: 0;
+}
+  .semicircle {
+    position: relative;
+    width: 100px;
+    height: 200px;    
+    z-index: 99;    
+  }
+  #semicircle1 {
+    background-color: #62306D;  
+    border-radius: 0 100px 100px 0;
+    left: 150px;
+  }
+
+  #semicircle2 {
+    background-color: #F7EC7D;
+    border-radius: 100px 0 0 100px;
+    right: 150px;
+  }
+  
+  
+}
+</style>
