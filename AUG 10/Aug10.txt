@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: #4F77FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    box-shadow: 
+      10px 10px #003AFF, 20px 20px #003AFF, 30px 30px #003AFF,
+      40px 40px #003AFF, 50px 50px #003AFF, 60px 60px #003AFF,
+      70px 70px #003AFF, 80px 80px #003AFF, 90px 90px #003AFF,
+      100px 100px #003AFF, 110px 110px #003AFF, 120px 120px #003AFF,
+      130px 130px #003AFF, 140px 140px #003AFF, 150px 150px #003AFF;
+  }
+</style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
